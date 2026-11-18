@@ -12,6 +12,8 @@ import {
 import LiveProjectButton from './LiveProjectButton';
 import FadeIn from './FadeIn';
 
+const THREATLENS_URL = "https://github.com/ishikajaiswal657/threatlens";
+
 interface Project {
   num: string;
   name: string;
@@ -103,6 +105,17 @@ const PROJECTS: Project[] = [
     image: '/projects/chat-agent.webp',
     buttonLabel: 'View on GitHub',
     link: GITHUB_URL,
+  },
+  {
+    num: '08',
+    name: 'ThreatLens',
+    categoryDate: 'Cybersecurity · Oct 2026',
+    description:
+      'Security operations analytics project built on simulated login data. A Python generator creates 150 users and 52,403 login events with three planted attack patterns. PostgreSQL views detect impossible travel, MFA fatigue, and brute force attacks, and a Power BI dashboard presents the results. All data is simulated, and the detections were checked against a separate answer key.',
+    tags: ['Python', 'pandas', 'PostgreSQL', 'SQL', 'Power BI'],
+    image: '/projects/threatlens.webp',
+    buttonLabel: 'View on GitHub',
+    link: THREATLENS_URL,
   },
 ];
 

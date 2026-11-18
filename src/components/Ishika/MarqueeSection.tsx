@@ -25,6 +25,7 @@ const PROJECTS = [
   'Operation Shadow-Lure',
   'Jarvis Voice Assistant',
   'Autonomous Chat Agent',
+  'ThreatLens',
 ];
 
 export default function MarqueeSection() {
